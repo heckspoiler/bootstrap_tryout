@@ -1,0 +1,178 @@
+* {
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+.img-container {
+
+    display: flex;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    
+}
+
+/* symbols */
+
+.symbols {
+    border: 1px solid black;
+    margin: 1px;
+    width: 30%;
+    margin-top: 0.2vw;
+
+}
+
+#symbol1 {
+    width: 80%;
+}
+
+#symbol2 {
+    width: 60%;
+}
+
+#symbol3 {
+    width: 40%;
+}
+
+#symbol4 {
+    width: 20%;
+}
+
+#symbol5 {
+    width: 10%;
+}
+
+#symbol6 {
+    width:5%;
+}
+
+
+/* header & navbar */
+
+.nav-bar {
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+    margin-left: 50px;
+    align-items: center;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-top: 3vw;
+
+
+}
+
+
+
+header {
+    display: flex;
+}
+
+
+header img {
+    margin-top: 3vw;
+
+}
+
+.nav-element {
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.navlink {
+
+    color: black;
+    text-decoration: none;
+    margin: 30px;
+    letter-spacing: 4px;
+    padding: 5px;
+    transition: color 0.2s ease-in;
+    color: black;
+    box-shadow: 1px 1px 1px 1px;
+
+
+}
+
+.navlink:hover {
+
+    color: #DC143C
+
+}
+
+/* news section */
+
+.news-section {
+
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vw;
+    margin-bottom: 5vw;
+    gap: 30px;
+    
+}
+
+
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.news-p {
+    width: 75%;
+}
+
+.news-section img {
+
+    margin-bottom: 5vw;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+/* main content */
+
+.main-artist {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.main-section {
+    display: grid;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 5em;
+    gap: 40px;
+}
+
+.main-container {
+    display: flex;
+}
+
+.main-section p {
+    max-width: 400px;
+
+    margin-left: 20px;
+}
+
+.moreText {
+    display: none;
+}
+
+.readMore {
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: white;
+}
+
+.readMore:hover {
+    background-color: lightgrey;
+}
