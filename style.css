@@ -80,8 +80,10 @@ header img {
 
 }
 
-.nav-element {
-    box-shadow: 1px 1px 1px 1px;
+
+
+.nav-element:hover {
+
 }
 
 .navlink {
@@ -93,14 +95,16 @@ header img {
     padding: 5px;
     transition: color 0.2s ease-in;
     color: black;
-    box-shadow: 1px 1px 1px 1px;
+
+
 
 
 }
 
 .navlink:hover {
 
-    color: #DC143C
+    color: black;
+    box-shadow: 1px 1px 1px 1px;
 
 }
 
